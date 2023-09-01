@@ -1,0 +1,32 @@
+#pantryItems, #freezerItems{
+    width: 450px;
+    height: 28px;
+    padding-left: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 4px;
+    border: 1px solid black;
+    background-color: #F6F0E8; 
+    margin-bottom: 10px;
+}
+
+.column {
+    display: inline-block;
+}
+
+.column2 {
+    display: inline-block;
+}
+
+#canned, #dryGoods, #veggies, #snacks {
+    background-color: #D9D9D9;
+    width: 150px;
+    height: 240;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: #D9D9D9;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}

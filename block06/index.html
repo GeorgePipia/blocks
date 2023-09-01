@@ -1,0 +1,115 @@
+
+<!-- Probobly, there are smarter ways but... Because we have two columns
+and two product types in each row + photo, 
+
+I created two separate classes for each column with two product types in it
+to display them as - inline-blocks, as rows, right next to each other-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gtocery List</title>
+    <!-- Internal Styiling of the mian header-->
+        <style>
+                section{
+                    color: #02989E;
+                    text-align: center;
+                    
+                }
+        </style>
+
+        <!-- External Styling link -->
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+
+    </head>
+
+    <body>
+        <!--The Main Header -->
+        <section> 
+            <h1> My Very Organized Grocery List </h1>  
+        </section>
+        
+        <!--inline stylinh example of a header-->
+        <h2 id="pantryItems" style="background-color: #F6F0E8; height: 28px;"> PANTRY ITEMS </h2>
+
+        <!-- because there are calumns I created "column" class 
+             for two divisions of grocery:canned & dryGoods-->
+        <div class="column">
+
+            <!-- I created separate divisions for each type of 
+            grocery to work on them as a "box"-->
+            <div id="canned"> 
+                <h3> CANNED </h3>
+                <ul>
+                    <li> Corn </li>
+                    <li> Tuna </li>
+                    <li> Green Beans</li>
+                    <li> Beans </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column">
+
+            <div id="dryGoods"> 
+                <h3> DRY GOODS </h3>
+                <ul>
+                    <li> Rice </li>
+                    <li> Lentils </li>
+                    <li> Oats </li>
+                    <li> Pancake Mix </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="img">
+               <!--<img width=“150” height=“100” src=“https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-cans-filled-with-vegetables-royalty-free-image-1588874624.jpg?crop=0.667xw:1.00xh;0.155xw,0&resize=1200:*”> -->
+                <img src="https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-cans-filled-with-vegetables-royalty-free-image-1588874624.jpg?crop=0.667xw:1.00xh;0.155xw,0&resize=1200:*"
+                alt="canned product photo"
+                width="196" height="184"
+                style="border: 2px solid  black; margin-bottom: -42px;">
+            </div>
+        </div> 
+   
+
+        <!-- This is another header, which is styled with exetrnal styiling-->
+        <h2 id="freezerItems"> FREEZER ITEMS</h2>
+        
+        <!-- the second class for two other types of groceries: Veggies & snacks -->
+        <div class="column2">
+
+            <div id="veggies">
+                <h3> VEGGIES </h3>
+                <ol> 
+                    <li> Broccoli</li>
+                    <li> Carrots </li>
+                    <li> Cauliflower </li>
+                    <li> Bell Peppers </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column2">
+            <div id="snacks">
+                <h3> SNACKS </h3>
+                <ol>
+                    <li> Chicken nuggets </li>
+                    <li> Hot Pockets </li>
+                    <li> Fries </li>
+                    <li> Tator Tots </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column2">
+            <div id="img2">
+                <img src="https://www.aoos.com/cdn/shop/products/Snacks_Neon_Sign_Y568_59781559-2714-4f29-a1bb-4d7b97d3362b.jpg?v=1691668786&width=823"
+                alt="the word Snacks written with elecric light"
+                style="width: 196px; height: 184px; border: 2px solid black; margin-bottom: -42px;"    >
+            </div>
+        </div>
+    </body>
+</html>
