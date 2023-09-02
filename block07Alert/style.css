@@ -1,3 +1,4 @@
+/* Styling of welcome display */
 #cont {
     padding-top: 50px;
     width: 500px;
@@ -7,6 +8,7 @@
     margin-left: 35%;
 }
 
+/* styling of instruction text - to get the code */
 h2 {
     text-align: center;
     background-color: rgb(195, 247, 254);
@@ -17,6 +19,7 @@ h2 {
     margin-right: 20px;
   }
 
+  /* mouseover section */
   #myButton{
     margin-bottom: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
