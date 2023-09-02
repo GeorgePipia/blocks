@@ -1,0 +1,24 @@
+#cont {
+    padding-top: 50px;
+    width: 500px;
+    background-color: rgb(231, 180, 240);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(195, 247, 254);
+    border-radius: 30px;
+    padding-left: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #myButton{
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
